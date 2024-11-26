@@ -1,17 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website celebrating the greatness of DOOM 2016.">
+    <title>DOOM 2016 - A Legendary Game</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can add custom CSS here if you want -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #ffcc00;
+            text-align: center;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .image-gallery img {
+            width: 100%;
+            max-width: 400px;
+            border: 5px solid #ffcc00;
+            margin: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #000;
+            color: #ffcc00;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
 
+<header>
+    <h1>DOOM 2016</h1>
+    <p>The Ultimate First-Person Shooter Experience</p>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Why DOOM 2016 is a Great Game</h2>
+        <p>DOOM 2016 is a masterpiece of fast-paced action, visceral combat, and nostalgic elements. Developed by id Software, the game revitalized the classic DOOM franchise with modern visuals, stunning sound design, and intense gameplay. The relentless demon-slaying action, combined with a powerful metal soundtrack, makes DOOM 2016 a must-play for any fan of the genre.</p>
+        <p>Here's why it's so legendary:</p>
+        <ul>
+            <li>Blazing-fast combat with a focus on mobility and aggression.</li>
+            <li>Epic weapons and brutal executions that make combat thrilling.</li>
+            <li>A rocking metal soundtrack that amps up the action.</li>
+            <li>A fantastic story that connects with the roots of the DOOM universe.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Epic DOOM 2016 Images</h2>
+        <p>Check out some of the best images from the game that capture its intense action and brutal gameplay:</p>
+        <div class="image-gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Doom_2016_gameplay.jpg/600px-Doom_2016_gameplay.jpg" alt="DOOM 2016 Gameplay">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Doom_2016_Poster.jpg" alt="DOOM 2016 Poster">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Doom_2016_Screenshot_2.jpg/800px-Doom_2016_Screenshot_2.jpg" alt="DOOM 2016 Screenshot">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Created by DOOM Fans | All Rights Reserved</p>
+</footer>
+
+</body>
 </html>
